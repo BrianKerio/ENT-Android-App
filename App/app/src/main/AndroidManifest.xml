@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Varsani">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.Varsani.ContactUs"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.SupLogin"
+            android:exported="false"
+            android:label="@string/title_activity_sup_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.Varsani.Clients.CompletedServiceItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.CompletedServices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.ApproveMaterials"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.RequestedMaterials"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Finance.PaySupplier"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Finance.SupplyPayments"
+            android:exported="false"
+            android:label="@string/title_activity_supplier_payments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.ApproveSupply"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Technician.ServiceItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.Varsani.Staff.Technician.AssignedServices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Finance.ApprovedServPayments"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Finance.PaymentDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Finance.NewServicePayments"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.InvoiceItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.Invoice"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Technician.VisitItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Technician.AssignedVisits"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.ServMrg.QuotItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.ServMrg.QuotationRequests"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.CheckOut2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.ServiceItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Clients.SingleService"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Suppliers.Accept"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Stafffeedback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Suppliers.MyRequests"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.RequestItems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.RequestSupplier"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Suppliers.Requests"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Varsani.Suppliers.RegSuppliers"
+            android:exported="false" />
+        <activity android:name="com.example.Varsani.Clients.Help_in" />
+        <activity android:name="com.example.Varsani.Clients.EndFeedback" />
+        <activity android:name="com.example.Varsani.Clients.PrintPdf" />
+        <activity android:name="com.example.Varsani.Clients.About" />
+        <activity android:name="com.example.Varsani.Clients.Help" />
+        <activity android:name="com.example.Varsani.Staff.SelectLogin" />
+        <activity
+            android:name="com.example.Varsani.Staff.Store_mrg.AddStock"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.example.Varsani.Staff.Store_mrg.ViewStock" />
+        <activity android:name="com.example.Varsani.Staff.Driver.AssignedItems" />
+        <activity android:name="com.example.Varsani.Staff.Driver.DeliveredOrders" />
+        <activity android:name="com.example.Varsani.Staff.Driver.ArrivedOrders" />
+        <activity android:name="com.example.Varsani.Staff.Driver.AssignedOrders" />
+        <activity android:name="com.example.Varsani.Staff.ShippingMrg.ShippingOrders" />
+        <activity android:name="com.example.Varsani.Staff.ShippingMrg.ItemsToShip" />
+        <activity android:name="com.example.Varsani.Staff.ShippingMrg.OrdersToShip" />
+        <activity
+            android:name="com.example.Varsani.Staff.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.Varsani.Staff.Finance.ApprovedOrders" />
+        <activity android:name="com.example.Varsani.Staff.Finance.OrderDetails" />
+        <activity android:name="com.example.Varsani.Staff.Finance.NewOrders" />
+        <activity android:name="com.example.Varsani.Staff.StaffLogin" />
+        <activity android:name="com.example.Varsani.Clients.OrderItems" />
+        <activity android:name="com.example.Varsani.Clients.Search" />
+        <activity android:name="com.example.Varsani.Clients.SingleItem" />
+        <activity android:name="com.example.Varsani.Clients.EditShippingDtls" />
+        <activity android:name="com.example.Varsani.Clients.ShippingDetails" />
+        <activity android:name="com.example.Varsani.Clients.Feedback" />
+        <activity android:name="com.example.Varsani.Clients.CheckOut" />
+        <activity android:name="com.example.Varsani.Clients.CartItems" />
+        <activity android:name="com.example.Varsani.Clients.UpdateProfile" />
+        <activity android:name="com.example.Varsani.Clients.Orders_hist" />
+        <activity android:name="com.example.Varsani.Clients.Profile" />
+        <activity
+            android:name="com.example.Varsani.Clients.Login"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.Varsani.Clients.Register"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>
